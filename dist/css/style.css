@@ -1,0 +1,61 @@
+/*! ===============
+Start Variables 
+==================*/
+:root {
+  --bgColor: #111111;
+  --mainColor: #ffd885;
+  --secColor: #fff;
+  --sectionPaddin: 60px;
+  --transitionDuration: 0.4s;
+  --gray: #999;
+  --lGray: #b8b8b8;
+} 
+/*! ===============
+End Variables 
+==================*/ 
+/*! ===============
+Start Global Rules 
+==================*/
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+html body {
+  font-family: "Oswald", sans-serif;
+  background-color: var(--bgColor) !important;
+  position: relative;
+  overflow-x: hidden;
+}
+html body ul {
+  list-style: none;
+  padding: 0;
+}
+html body a {
+  text-decoration: none;
+  color: #000;
+}
+html body button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+} 
+/*! ===============
+End Global Rules 
+==================*/ 
+/*! ===============
+Start Container
+==================*/
+.container {
+  margin: 0 auto;
+  width: 84vw;
+} /*! ===============
+End Container
+==================*/ 
+/*# sourceMappingURL=style.css.map */
