@@ -255,6 +255,94 @@ header .fixedNav {
 End Header 
 ==================*/
 /*! ===============
+Start Home
+==================*/
+.home {
+  height: calc(100vh - 124.47px);
+  overflow: hidden;
+}
+.home .container {
+  height: 100%;
+  position: relative;
+}
+.home .container .layer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 100vh;
+  margin-left: 50px;
+  background-color: #161616;
+  color: var(--secColor);
+}
+.home .container .layer .text {
+  padding-top: 60px;
+}
+.home .container .layer .text h5 {
+  color: #e1e1e1;
+  font-weight: 400;
+}
+.home .container .layer .text h2 {
+  font-weight: 500;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+}
+.home .container .layer .text span {
+  color: var(--mainColor);
+}
+.home .container .layer .text p {
+  color: #e1e1e1;
+  font-weight: 300;
+  margin: 15px 0;
+}
+.home .container .layer .text .order {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 25px;
+}
+.home .container .layer .text .order button {
+  background-color: var(--mainColor);
+  color: var(--bgColor);
+  text-transform: capitalize;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 5px 15px;
+  border-radius: 4px;
+  -webkit-transition: var(--transitionDuration);
+  transition: var(--transitionDuration);
+}
+.home .container .layer .text .order button:hover {
+  background-color: #d8ac4c;
+}
+.home .container .layer .text .order a {
+  color: var(--mainColor);
+  text-decoration: underline;
+  -webkit-transition: var(--transitionDuration);
+  transition: var(--transitionDuration);
+}
+.home .container .layer .text .order a:hover {
+  color: var(--secColor);
+}
+.home .container .image {
+  position: relative;
+  top: 8%;
+}
+.home .container .image img {
+  max-width: 100%;
+  height: auto;
+} /*! ===============
+End Home 
+==================*/
+/*! ===============
 Start Classes 
 ==================*/
 .hide {
