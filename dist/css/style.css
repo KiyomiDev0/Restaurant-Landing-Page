@@ -59,6 +59,39 @@ Start Container
 End Container
 ==================*/
 /*! ===============
+Start Components 
+==================*/ 
+/*! Start Heading*/
+.heading {
+  text-align: center;
+  padding-bottom: 40px;
+  position: relative;
+  z-index: 22;
+}
+.heading h2 {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: var(--secColor);
+  display: inline-block;
+  position: relative;
+}
+.heading h2::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: var(--mainColor);
+  height: 2px;
+  width: 60%;
+} /*! End Heading*/ 
+/*! ===============
+End Components 
+==================*/
+/*! ===============
 Start Header 
 ==================*/
 header .container {
