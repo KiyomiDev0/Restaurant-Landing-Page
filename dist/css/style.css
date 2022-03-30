@@ -343,6 +343,175 @@ Start Home
 End Home 
 ==================*/
 /*! ===============
+Start About 
+==================*/
+.about {
+  padding: var(--sectionPaddin) 0;
+}
+.about .container {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.about .container .image {
+  padding: 0;
+}
+@media (max-width: 992px) {
+  .about .container .image {
+    width: 40vw;
+    margin: auto;
+  }
+}
+.about .container .image img {
+  max-width: 100%;
+  height: auto;
+}
+.about .container .text {
+  padding: 0;
+  margin: auto;
+}
+.about .container .text h3 {
+  font-size: 1.8rem;
+  color: var(--mainColor);
+  text-align: center;
+}
+@media (max-width: 520px) {
+  .about .container .text h3 {
+    font-size: 1.4rem;
+  }
+}
+.about .container .text h5 {
+  color: var(--lGray);
+  text-align: center;
+  margin-bottom: 15px;
+}
+@media (max-width: 520px) {
+  .about .container .text h5 {
+    font-size: 0.7rem;
+  }
+}
+.about .container .text p {
+  color: var(--secColor);
+  font-size: 1.3rem;
+  margin: 10px 0;
+}
+@media (max-width: 767px) {
+  .about .container .text p {
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 520px) {
+  .about .container .text p {
+    font-size: 0.9rem;
+    margin: 5px 0;
+  }
+}
+.about .container .text p span {
+  font-size: 2.8rem;
+  line-height: 1;
+  color: var(--mainColor);
+}
+@media (max-width: 520px) {
+  .about .container .text p span {
+    font-size: 2.1rem;
+  }
+}
+.about .container .text .txt {
+  margin: 10px 0 20px;
+}
+.about .container .text .txt p {
+  color: var(--lGray);
+  font-size: 1rem;
+}
+@media (max-width: 767px) {
+  .about .container .text .txt p {
+    max-width: 85%;
+  }
+}
+@media (max-width: 520px) {
+  .about .container .text .txt p {
+    font-size: 0.8rem;
+  }
+}
+.about .container .founder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.about .container .founder .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+@media (max-width: 520px) {
+  .about .container .founder .info img {
+    max-width: 60px;
+    height: auto;
+  }
+}
+.about .container .founder .info .name {
+  margin-left: 15px;
+}
+@media (max-width: 520px) {
+  .about .container .founder .info .name {
+    margin-left: 10px;
+  }
+}
+.about .container .founder .info .name h5 {
+  margin: 0;
+  line-height: 1;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--secColor);
+}
+@media (max-width: 767px) {
+  .about .container .founder .info .name h5 {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 520px) {
+  .about .container .founder .info .name h5 {
+    font-size: 1rem;
+  }
+}
+.about .container .founder .info .name p {
+  color: var(--mainColor);
+  padding: 0;
+  margin: 0;
+}
+@media (max-width: 767px) {
+  .about .container .founder .info .name p {
+    font-size: 0.9rem;
+  }
+}
+.about .container .founder .signature {
+  font-size: 2.4rem;
+  color: var(--lGray);
+  font-family: "Sacramento", cursive;
+}
+@media (max-width: 767px) {
+  .about .container .founder .signature {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 520px) {
+  .about .container .founder .signature {
+    font-size: 1.2rem;
+  }
+} 
+/*! ===============
+End About
+==================*/
+/*! ===============
 Start Classes 
 ==================*/
 .hide {
