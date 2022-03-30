@@ -57,5 +57,214 @@ Start Container
   width: 84vw;
 } /*! ===============
 End Container
-==================*/ 
+==================*/
+/*! ===============
+Start Header 
+==================*/
+header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+header .container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+header .contact-info-bar {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid var(--secColor);
+}
+@media (max-width: 767px) {
+  header .contact-info-bar {
+    display: none;
+  }
+}
+header .contact-info-bar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+header .contact-info-bar .container li {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: var(--secColor);
+}
+header .contact-info-bar .container ul:first-of-type {
+  gap: 20px;
+}
+header .contact-info-bar .container ul:first-of-type li:last-of-type {
+  color: var(--mainColor);
+}
+header .contact-info-bar .container ul:first-of-type a {
+  color: var(--secColor);
+  -webkit-transition-duration: var(--transitionDuration);
+  transition-duration: var(--transitionDuration);
+}
+header .contact-info-bar .container ul:first-of-type a:hover {
+  color: var(--mainColor);
+}
+header .contact-info-bar .container .social-contact {
+  gap: 10px;
+}
+header .contact-info-bar .container .social-contact i {
+  border: 2px solid var(--mainColor);
+  border-radius: 50%;
+  padding: 4px;
+  -webkit-transition-duration: var(--transitionDuration);
+  transition-duration: var(--transitionDuration);
+}
+header .contact-info-bar .container .social-contact a {
+  color: var(--mainColor);
+}
+header .contact-info-bar .container .social-contact a:hover i {
+  color: var(--secColor);
+  border-color: var(--secColor);
+}
+header > .container {
+  background-color: var(--bgColor);
+  padding: 15px;
+  border: 1px solid var(--mainColor);
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  position: relative;
+}
+header > .container .logo {
+  color: var(--mainColor);
+  font-size: 1.8rem;
+}
+header > .container nav {
+  text-transform: uppercase;
+}
+header > .container nav .menu-btn {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  padding: 12px 10px;
+  border: 1px solid var(--mainColor);
+  z-index: 1;
+  -webkit-transition-duration: var(--transitionDuration);
+  transition-duration: var(--transitionDuration);
+  display: none;
+}
+header > .container nav .menu-btn:hover {
+  gap: 7px;
+}
+@media (max-width: 992px) {
+  header > .container nav .menu-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+header > .container nav .menu-btn span {
+  height: 2px;
+  width: 28px;
+  border-radius: 4px;
+  background-color: var(--secColor);
+}
+header > .container nav .layer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 998;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+}
+header > .container nav .layer i {
+  position: absolute;
+  right: 10%;
+  top: 10%;
+  color: var(--mainColor);
+  font-size: 2rem;
+  cursor: pointer;
+}
+header > .container nav ul {
+  gap: 22px;
+}
+@media (max-width: 992px) {
+  header > .container nav ul {
+    display: none;
+  }
+}
+header > .container nav ul a {
+  color: var(--secColor);
+  -webkit-transition: var(--transitionDuration);
+  transition: var(--transitionDuration);
+}
+header > .container nav ul a:hover {
+  color: var(--mainColor);
+}
+header > .container nav .col-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  margin-top: 30px;
+  z-index: 2222;
+}
+@media (max-width: 767px) {
+  header > .container nav .col-ul {
+    margin-top: 55px;
+  }
+}
+header > .container nav .col-ul li {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+header .fixedNav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 3000;
+} 
+/*! ===============
+End Header 
+==================*/
+/*! ===============
+Start Classes 
+==================*/
+.hide {
+  display: none !important;
+}
+
+.show {
+  display: block !important;
+}
+/*! ===============
+End Classes
+==================*/
 /*# sourceMappingURL=style.css.map */
