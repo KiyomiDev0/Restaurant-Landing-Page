@@ -2,7 +2,7 @@
 Start Variables 
 ==================*/
 :root {
-   --bgColor: #090909;
+   --bgColor: #25272b;
    --mainColor: #ffcb5c;
    --secColor: #fff;
    --sectionPaddin: 60px;
@@ -68,17 +68,7 @@ Start Container
 End Container
 ==================*/
 /*! ===============
-Start Header 
-==================*/
-
-/*! ===============
-End Header 
-==================*/
-/*! ===============
 Start Home
-==================*/
-/*! ===============
-End Home 
 ==================*/
 main {
    height: 100vh;
@@ -94,7 +84,7 @@ main {
    position: relative
 }
 
-main::after {
+main::before {
    content: "";
    position: absolute;
    top: 0;
@@ -102,7 +92,7 @@ main::after {
    width: 100%;
    height: 100%;
    background-color: rgba(0, 0, 0, .4);
-   z-index: -1
+   z-index: 0
 }
 /* Start Header */
 header {
@@ -323,7 +313,7 @@ header>.container nav .col-ul li {
 }
 
 header .fixedNav {
-   background-color: #282F33;
+   background-color: var(--bgColor);
    position: fixed;
    top: 0;
    right: 0;
@@ -425,6 +415,7 @@ End Home
 Start About 
 ==================*/
 .about {
+   background-color: var(--bgColor);
    padding: var(--sectionPaddin) 0
 }
 
