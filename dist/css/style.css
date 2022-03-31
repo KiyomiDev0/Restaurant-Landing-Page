@@ -192,7 +192,11 @@ header>.container {
    border-right: 0;
    position: relative
 }
-
+@media (max-width: 499px) {
+   header>.container {
+      padding: 10px;
+   }
+}
 header>.container .logo {
    color: var(--mainColor);
    font-size: 1.8rem
@@ -340,11 +344,21 @@ main .landing-container .text {
    padding: 30px;
    border-radius: 10px
 }
-
+@media (max-width: 499px) {
+   .landing-container .text {
+      width: 80vw;
+      padding: 25px;
+   }
+}
 main .landing-container .text h3 {
    font-size: 1.5rem;
    color: var(--mainColor);
    text-align: center
+}
+@media (max-width: 499px) {
+   .landing-container h3 {
+      font-size: 1.1rem;
+   }
 }
 
 main .landing-container .text h2 {
@@ -354,7 +368,11 @@ main .landing-container .text h2 {
    color: #e1e1e1;
    margin-top: 5px
 }
-
+@media (max-width: 499px) {
+   .landing-container h2 {
+      font-size: 1.5rem;
+   }
+}
 main .landing-container .text span {
    color: var(--mainColor)
 }
@@ -365,7 +383,12 @@ main .landing-container .text p {
    font-size: 1.2rem;
    margin: 15px 0
 }
-
+@media (max-width: 499px) {
+   .landing-container p {
+      font-size: 1rem;
+      margin: 0;
+   }
+}
 main .landing-container .text .order {
    display: -webkit-box;
    display: -ms-flexbox;
@@ -390,7 +413,11 @@ main .landing-container .text .order button {
    -webkit-transition: var(--transitionDuration);
    transition: var(--transitionDuration)
 }
-
+@media (max-width: 499px) {
+   .landing-container button {
+      font-size: 0.9rem;
+   }
+}
 main .landing-container .text .order button:hover {
    background-color: #d8ac4c
 }
@@ -403,7 +430,11 @@ main .landing-container .text .order a {
    -webkit-transition: var(--transitionDuration);
    transition: var(--transitionDuration)
 }
-
+@media (max-width: 499px) {
+   .landing-container .order a {
+      font-size: 1rem;
+   }
+}
 main .landing-container .text .order a:hover {
    color: var(--secColor)
 }
