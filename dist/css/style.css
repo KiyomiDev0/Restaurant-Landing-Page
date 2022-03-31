@@ -83,7 +83,7 @@ End Home
 main {
    height: 100vh;
    background-size: cover;
-   background-image: url(/dist/imgs/bg.jpg);
+   background-image: url(dist/imgs/bg.jpg);
    display: -webkit-box;
    display: -ms-flexbox;
    display: flex;
